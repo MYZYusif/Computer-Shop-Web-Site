@@ -1,0 +1,231 @@
+.true,.false{
+  display: none;
+}
+
+.true{
+  color: green;
+}
+
+.false{
+  color: red;
+}
+.red-button{
+  background-color: red;
+}
+.blue-button{
+  background-color: green;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.homepagego {
+    padding: 1vh;
+    margin: 1vh;
+    background-color: rgb(234, 166, 41);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.addcomputerbt{
+    padding: 1vh;
+    margin: 1vh;
+    background-color: rgb(12, 167, 159);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.nextButton{
+    padding: 1vh;
+    margin: 1vh;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.backButton{
+    padding: 1vh;
+    margin: 1vh;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.blue-button{
+    padding: 1vh;
+    margin: 1vh;
+    background-color: rgb(51, 176, 218);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.red-button{
+  padding: 1vh;
+  margin: 1vh;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.close-button{
+  width: 100%;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.close-button :hover{
+  background-color: rgb(233, 43, 43);
+}
+
+.saveComputer{
+  width: 10vh;
+  padding: 10px;
+  background-color: rgb(41, 41, 246);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.resetComputer{
+  width: 10vh;
+  padding: 10px;
+  background-color: rgb(234, 166, 41);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#search {
+  border-radius: 15px;
+}
+
+table {
+  width: 95%;
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+#computerFormOverlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+#computerForm {
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  width: 700px;
+  margin: 0 auto;
+}
+
+#computerForm h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#computerForm label {
+  display: block;
+  margin-bottom: 3px;
+}
+
+#computerForm input,
+#computerForm select {
+  width: 100%;
+  padding: 7px;
+  margin-bottom: 5px;
+  font-size: 10px;
+  border-radius: 5px;
+}
+
+img{
+  width: 15vh;
+}
+
+th {
+  position: relative;
+  cursor: pointer;
+}
+
+th::after {
+  content: ' ▼'; 
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+th.asc::after {
+  content: ' ▲'; 
+}
+
+th.desc::after {
+  content: ' ▼'; 
+}
+
+#imageModal{
+  position: absolute;
+  top: 20%;
+}
+#enlargedImage{
+  width: 100%;
+  height: 100%;
+}
+.buttons{
+  display: flex;
+  justify-content: end;
+  margin-right: 10px;
+}
+.search-select{
+width: 100%;
+padding: 5px;
+display: flex;
+justify-content: space-between;
+}

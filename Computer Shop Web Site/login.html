@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Shop Log in</title>
+    <link rel="stylesheet" href="./login.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Log in</h2>
+        <form action="#" method="post">
+          <input type="text" placeholder="UserName" id="name" minlength="2" required>
+          <input type="password" placeholder="Password" id="password" min="16" max="62" required>
+          <button type="submit">Log in</button>
+        </form>
+        <div class="separator"></div>
+        <p>
+          No Account? <a href="./Register.html">Register</a>
+        </p>
+      </div>
+      <button class="bt2" onclick="goBack()" style="position: absolute; top: 10px; left: 10px; background-color: #3498db;"><a href="./StartWeb.html">Back</a></button>
+</body>
+<script src="./login.js"></script>
+</html>

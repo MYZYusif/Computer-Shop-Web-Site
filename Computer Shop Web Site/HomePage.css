@@ -1,0 +1,100 @@
+#carouselExample{
+    width: 50vw;
+    margin: 100px auto !important;
+}
+
+img{
+    width: 65vw;
+    height: 60vh;
+    object-fit: cover;
+}
+
+.bts{
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.bt1{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 1vh;
+}
+
+.bt2{
+    background-color: yellow;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 1vh;
+}
+
+.bt3{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 1vh;
+}
+
+h1{
+    margin: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.bt1 a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+.bt2 a{
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+.bt3 a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+
+
+
+  .carousel {
+    width: 100%; 
+    max-width: 40vw; 
+    height: auto; 
+    margin: 0 auto;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute !important;
+    height: 50vh !important; 
+    background-color: black !important;
+    top: 50% !important;
+    transform: translateY(-50%);
+}
+
+.carousel-control-prev {
+    left: -20vh !important;
+}
+
+.carousel-control-next {
+    right: -20vh !important;
+}
+
+img {
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+   
+}
+.bt3{
+    margin-top: 15px;
+}
